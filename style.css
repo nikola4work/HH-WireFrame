@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    font-size: 18px;
+}
+
+#head {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#top-nav {
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#left {
+    width: 495px;
+    border: 1px solid black;
+}
+
+.tag {
+    border: 1px solid black;
+}
+
+.p {
+    border: 1px solid black;
+}
