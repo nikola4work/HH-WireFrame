@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: auto;
+    padding: auto;
 }
 
 body {
@@ -19,33 +21,62 @@ body {
 #top-nav {
     border: 1px solid black;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding: 30px;
 }
 
 #left {
+    float: left;
     width: 495px;
     border: 1px solid black;
     text-align: center;
-    padding: 20px 10px;
-    background-color: aqua;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#left p {
+    padding-bottom: 10px;
 }
 
 .main-content {
     border: 1px solid black;
-    padding: 10px;
+    padding: 25px;
     background-color: blue;
+}
+
+.main-content p {
+    padding: 10px;
 }
 
 .tag {
     border: 1px solid black;
-    padding: 6px;
     margin-bottom: 10px;
     background-color: blueviolet;
 }
 
 .p {
     border: 1px solid black;
-    padding: 6px;
     background-color: brown;
+}
+
+#right {
+    width: 400px;
+    float: right;
+    border: 1px solid black;
+    height: 255px;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+}
+
+.clear-fix {
+    clear: both;
 }
