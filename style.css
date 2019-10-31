@@ -11,25 +11,41 @@ body {
 #head {
     border: 1px solid black;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
 }
 
 #top-nav {
     border: 1px solid black;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    padding: 30px;
 }
 
 #left {
     width: 495px;
     border: 1px solid black;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: aqua;
+}
+
+.main-content {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: blue;
 }
 
 .tag {
     border: 1px solid black;
+    padding: 6px;
+    margin-bottom: 10px;
+    background-color: blueviolet;
 }
 
 .p {
     border: 1px solid black;
+    padding: 6px;
+    background-color: brown;
 }
